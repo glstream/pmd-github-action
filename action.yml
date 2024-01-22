@@ -77,7 +77,7 @@ inputs:
 
 runs:
   using: 'docker'
-  image: 'docker://glstream/pmd:7.0.0-rc4'
+  image: 'docker://glstream/pmd-testing:7.0.0-rc4'
   args:
     - -rulesets
     - ${{ inputs.rulesets }}
